@@ -51,7 +51,27 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     initLanguageSwitcher();
+    initScrollAnimations();
 });
+
+function initScrollAnimations() {
+    const targets = document.querySelectorAll(
+        '.stat-item, .service-card, .why-card, .review-card, .brand-box, .section-title, .banden-info, .over-ons-content, .contact-info, .contact-form, .hero-badge'
+    );
+
+    targets.forEach(el => el.classList.add('fade-in'));
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.08, rootMargin: '0px 0px -30px 0px' });
+
+    targets.forEach(el => observer.observe(el));
+}
 
 const translations = {
     nl: {
