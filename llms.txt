@@ -1,44 +1,50 @@
 # GoPneus
 
-> GoPneus is een familiebedrijf en bandenspecialist in Schaerbeek (Brussel), België. Wij bieden professionele bandenservice en autoonderhoud voor alle merken — met snelle montage, eerlijke prijzen en persoonlijk advies. 5-sterren Google-beoordeeld met meer dan 500 tevreden klanten.
+> GoPneus is uw betrouwbare familiebedrijf en bandenspecialist in Schaerbeek (Brussel). Wij bieden professionele bandenservice, montage en auto-onderhoud met snelle service, eerlijke prijzen en persoonlijk advies. 5-sterren Google-beoordeeld met meer dan 500 tevreden klanten en 10+ jaar ervaring.
 
-GoPneus staat voor kwaliteit, snelheid en eerlijkheid. Geen afspraak nodig — klanten kunnen zonder reservatie binnenlopen. De garage is bereikbaar via WhatsApp voor snelle afspraken.
+GoPneus staat voor kwaliteit, snelheid en eerlijkheid. Geen afspraak nodig — loop gewoon binnen. WhatsApp voor snelle afspraken.
 
 **Adres:** Rue des Palais 129, 1030 Schaerbeek, Brussel, België
-**Telefoon:** +32 483 42 95 06
-**E-mail:** ozdemir0038@hotmail.com
-**Openingstijden:** Maandag t/m Zaterdag 9:00–19:00 | Zondag gesloten
+**Telefoon / WhatsApp:** +32 483 42 95 06
+**Openingstijden:** Maandag t/m Zaterdag 09:00 – 19:00 (zondag gesloten)
 **Talen:** Nederlands, Frans, Engels
 
 ## Diensten
 
-- [Nieuwe & Tweedehands Banden](https://emirhan038.github.io/GoPneus/#services) : Ruim aanbod aan nieuwe banden van topmerken (Michelin, Continental, Bridgestone, Goodyear) én kwalitatieve tweedehands banden voor elk budget en voertuigtype.
-- [Remschijven & Remblokken](https://emirhan038.github.io/GoPneus/#services) : Vervanging van remschijven en remblokken voor optimale remprestaties en rijveiligheid.
-- [Airco Hervulling](https://emirhan038.github.io/GoPneus/#services) : Professionele hervulling van R134A en R1234YF aircosystemen voor een aangenaam rijklimaat het hele jaar door.
-- [Technische Controle Voorbereiding](https://emirhan038.github.io/GoPneus/#services) : Volledige voorbereiding van uw voertuig voor de wettelijke technische keuring — zodat u slaagt zonder problemen.
-- [Auto Diagnose](https://emirhan038.github.io/GoPneus/#services) : Professionele elektronische diagnose met de nieuwste uitleesapparatuur, geschikt voor alle automerken en -modellen.
-- [Koplampen Uitlijnen](https://emirhan038.github.io/GoPneus/#services) : Nauwkeurige uitlijning van koplampen voor maximale zichtbaarheid en verkeersveiligheid.
-- [Banden Balanceren](https://emirhan038.github.io/GoPneus/#services) : Professioneel balanceren voor soepel rijgedrag, minder slijtage en optimale bandenprestaties.
-- [Vervanging Lampen & Batterijen](https://emirhan038.github.io/GoPneus/#services) : Snelle vervanging van autoverlichting (LED, halogeen, xenon) en startbatterijen voor alle voertuigen.
-- [Onderstel & Kleine Reparaties](https://emirhan038.github.io/GoPneus/#services) : Vakkundige reparaties aan schokdempers, stuurinrichting en overige onderstelcomponenten.
-- [Seizoenswissel Banden](https://emirhan038.github.io/GoPneus/#services) : Professionele wissel van winter- naar zomerbanden (en omgekeerd) — snel en zonder afspraak.
+- [Nieuwe & Tweedehands Banden](https://emirhan038.github.io/Gopneus/diensten.md#banden) : Breed assortiment nieuwe topmerken (Michelin, Continental, Bridgestone, Goodyear) en kwalitatieve tweedehands banden voor personenwagens, SUV's en bestelwagens.
+- [Seizoenswissel & Balanceren](https://emirhan038.github.io/Gopneus/diensten.md#banden) : Professionele zomer- en winterbanden wissel + balanceren — vaak binnen 30 minuten, ook zonder afspraak.
+- [Remschijven & Remblokken](https://emirhan038.github.io/Gopneus/diensten.md#remmen) : Vervanging van remschijven en remblokken voor optimale remprestaties en maximale veiligheid.
+- [Airco Hervulling](https://emirhan038.github.io/Gopneus/diensten.md#klimaat--comfort) : Professionele hervulling met R134A of R1234YF voor perfect klimaat in uw auto.
+- [Auto Diagnose](https://emirhan038.github.io/Gopneus/diensten.md#diagnose--elektrisch) : Elektronische diagnose met moderne apparatuur voor alle automerken.
+- [Koplampen Uitlijnen & Vervanging Lampen](https://emirhan038.github.io/Gopneus/diensten.md#diagnose--elektrisch) : Nauwkeurige uitlijning en vervanging van alle autoverlichting.
+- [Vervanging Batterijen](https://emirhan038.github.io/Gopneus/diensten.md#diagnose--elektrisch) : Testen en vervangen van startbatterijen inclusief controle van de alternator.
+- [Technische Controle Voorbereiding](https://emirhan038.github.io/Gopneus/diensten.md#onderhoud--keuring) : Volledige voorbereiding zodat u slaagt voor de keuring zonder verrassingen.
+- [Onderstel & Kleine Reparaties](https://emirhan038.github.io/Gopneus/diensten.md#onderhoud--keuring) : Reparatie van schokdempers, stuurinrichting, kogelgewrichten en andere kleine herstellingen.
+- [Alle Diensten in Detail](https://emirhan038.github.io/Gopneus/diensten.md) : Uitgebreide Markdown-pagina met volledige uitleg van alle diensten — speciaal gemaakt voor AI-modellen en klanten die dieper willen lezen.
 
-## Volledig Dienstenoverzicht (Markdown)
+## Bandenassortiment
 
-- [Alle Diensten — Gedetailleerde Beschrijving](https://emirhan038.github.io/GoPneus/diensten.md) : Uitgebreide Markdown-pagina met elk service volledig uitgelegd — ideaal voor AI-modellen die diepgaande context nodig hebben over het aanbod van GoPneus.
-
-## Banden Assortiment
-
-- [Bandenassortiment GoPneus](https://emirhan038.github.io/GoPneus/#banden) : Volledig overzicht van het bandenassortiment — nieuwe en tweedehands banden, zomer-, winter- en all-season, voor personenwagens, SUV's en bestelwagens. Elk merk en elke maat op bestelling beschikbaar.
+- Zomerbanden, winterbanden en all-season banden van topmerken
+- Nieuwe premium banden en gecontroleerde tweedehands banden
+- Banden voor personenauto's, SUV's en bestelwagens
+- Velgen en complete wielen op aanvraag
+- Elke maat en merk snel leverbaar
 
 ## Over Ons
 
-- [Over GoPneus](https://emirhan038.github.io/GoPneus/#over-ons) : GoPneus is een familiebedrijf met meer dan 10 jaar ervaring in bandenservice en autoonderhoud in Schaerbeek. Prioriteiten: kwaliteit, snelheid, persoonlijk advies en klanttevredenheid.
+GoPneus is een **familiebedrijf** met meer dan 10 jaar ervaring in Schaerbeek. Persoonlijke service, transparante prijzen en echte klantvriendelijkheid staan centraal.
 
-## Klantbeoordelingen
+## Reviews
 
-- [Google Reviews GoPneus](https://www.google.com/maps/search/GoPneus+Schaerbeek) : Echte 5-sterren klantreviews op Google Maps — klanten roemen de snelheid, eerlijke prijzen en vriendelijke service. Eén klant had zijn 4 banden gewisseld in 30 minuten zonder afspraak.
+Meer dan 500 tevreden klanten beoordelen ons met **5 sterren** op Google. Klanten prijzen vooral de snelheid (4 banden wisselen in 30 minuten), eerlijke prijzen en vriendelijke aanpak.
 
-## Contact & Locatie
+Bekijk alle reviews: [Google Reviews GoPneus Schaerbeek](https://www.google.com/maps/search/GoPneus+Schaerbeek)
 
-- [Contact en Afspraak](https://emirhan038.github.io/GoPneus/#contact) : Contactgegevens, openingstijden, Google Maps locatie (Rue des Palais 129, Schaerbeek) en directe WhatsApp-afspraakknop voor snelle service.
+## Contact
+
+- **WhatsApp:** [Direct afspraak maken](https://wa.me/32483429506?text=Hallo%20GoPneus%2C%20ik%20wil%20een%20afspraak%20maken.)
+- **Telefoon:** +32 483 42 95 06
+- **Adres:** Rue des Palais 129, 1030 Schaerbeek
+- **Google Maps:** [Bekijk locatie](https://www.google.com/maps/search/GoPneus+Schaerbeek)
+
+Loop gerust binnen tijdens de openingsuren — geen afspraak nodig.
