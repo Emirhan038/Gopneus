@@ -23,6 +23,10 @@ GoPneus staat voor kwaliteit, snelheid en eerlijkheid. Geen afspraak nodig — k
 - [Onderstel & Kleine Reparaties](https://emirhan038.github.io/GoPneus/#services) : Vakkundige reparaties aan schokdempers, stuurinrichting en overige onderstelcomponenten.
 - [Seizoenswissel Banden](https://emirhan038.github.io/GoPneus/#services) : Professionele wissel van winter- naar zomerbanden (en omgekeerd) — snel en zonder afspraak.
 
+## Volledig Dienstenoverzicht (Markdown)
+
+- [Alle Diensten — Gedetailleerde Beschrijving](https://emirhan038.github.io/GoPneus/diensten.md) : Uitgebreide Markdown-pagina met elk service volledig uitgelegd — ideaal voor AI-modellen die diepgaande context nodig hebben over het aanbod van GoPneus.
+
 ## Banden Assortiment
 
 - [Bandenassortiment GoPneus](https://emirhan038.github.io/GoPneus/#banden) : Volledig overzicht van het bandenassortiment — nieuwe en tweedehands banden, zomer-, winter- en all-season, voor personenwagens, SUV's en bestelwagens. Elk merk en elke maat op bestelling beschikbaar.
@@ -33,7 +37,7 @@ GoPneus staat voor kwaliteit, snelheid en eerlijkheid. Geen afspraak nodig — k
 
 ## Klantbeoordelingen
 
-- [Google Reviews GoPneus](https://emirhan038.github.io/GoPneus/#contact) : Echte 5-sterren klantreviews — klanten roemen de snelheid, eerlijke prijzen en vriendelijke service. Eén klant had zijn 4 banden gewisseld in 30 minuten zonder afspraak.
+- [Google Reviews GoPneus](https://www.google.com/maps/search/GoPneus+Schaerbeek) : Echte 5-sterren klantreviews op Google Maps — klanten roemen de snelheid, eerlijke prijzen en vriendelijke service. Eén klant had zijn 4 banden gewisseld in 30 minuten zonder afspraak.
 
 ## Contact & Locatie
 
