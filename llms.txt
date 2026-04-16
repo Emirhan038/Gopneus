@@ -1,8 +1,8 @@
 # GoPneus
 
-> GoPneus is uw betrouwbare familiebedrijf en bandenspecialist in Schaerbeek (Brussel). Wij bieden professionele bandenservice, montage en auto-onderhoud met snelle service, eerlijke prijzen en persoonlijk advies. 5-sterren Google-beoordeeld met meer dan 500 tevreden klanten en 10+ jaar ervaring.
+> GoPneus is een betrouwbaar familiebedrijf en bandenspecialist in Schaerbeek (Brussel). Wij bieden snelle, professionele bandenservice en auto-onderhoud met eerlijke prijzen, persoonlijke service en geen afspraak nodig. Meer dan 500 klanten beoordelen ons met 5 sterren op Google.
 
-GoPneus staat voor kwaliteit, snelheid en eerlijkheid. Geen afspraak nodig — loop gewoon binnen. WhatsApp voor snelle afspraken.
+GoPneus staat voor kwaliteit, snelheid en eerlijkheid. Loop gerust binnen tijdens de openingsuren.
 
 **Adres:** Rue des Palais 129, 1030 Schaerbeek, Brussel, België
 **Telefoon / WhatsApp:** +32 483 42 95 06
@@ -11,40 +11,39 @@ GoPneus staat voor kwaliteit, snelheid en eerlijkheid. Geen afspraak nodig — l
 
 ## Diensten
 
-- [Nieuwe & Tweedehands Banden](https://emirhan038.github.io/Gopneus/diensten.md#banden) : Breed assortiment nieuwe topmerken (Michelin, Continental, Bridgestone, Goodyear) en kwalitatieve tweedehands banden voor personenwagens, SUV's en bestelwagens.
-- [Seizoenswissel & Balanceren](https://emirhan038.github.io/Gopneus/diensten.md#banden) : Professionele zomer- en winterbanden wissel + balanceren — vaak binnen 30 minuten, ook zonder afspraak.
-- [Remschijven & Remblokken](https://emirhan038.github.io/Gopneus/diensten.md#remmen) : Vervanging van remschijven en remblokken voor optimale remprestaties en maximale veiligheid.
-- [Airco Hervulling](https://emirhan038.github.io/Gopneus/diensten.md#klimaat--comfort) : Professionele hervulling met R134A of R1234YF voor perfect klimaat in uw auto.
+- [Nieuwe & Tweedehands Banden](https://emirhan038.github.io/Gopneus/diensten.md#banden) : Groot assortiment nieuwe topmerken (Michelin, Continental, Bridgestone, Goodyear) en kwalitatieve tweedehands banden voor alle voertuigen.
+- [Seizoenswissel & Balanceren](https://emirhan038.github.io/Gopneus/diensten.md#banden) : Snelle zomer- en winterbanden wissel met professioneel balanceren — vaak binnen 30 minuten.
+- [Remschijven & Remblokken](https://emirhan038.github.io/Gopneus/diensten.md#remmen) : Vervanging van remmen voor optimale veiligheid en remprestaties.
+- [Airco Hervulling](https://emirhan038.github.io/Gopneus/diensten.md#klimaat--comfort) : Professionele airco hervulling met R134A of R1234YF.
 - [Auto Diagnose](https://emirhan038.github.io/Gopneus/diensten.md#diagnose--elektrisch) : Elektronische diagnose met moderne apparatuur voor alle automerken.
-- [Koplampen Uitlijnen & Vervanging Lampen](https://emirhan038.github.io/Gopneus/diensten.md#diagnose--elektrisch) : Nauwkeurige uitlijning en vervanging van alle autoverlichting.
-- [Vervanging Batterijen](https://emirhan038.github.io/Gopneus/diensten.md#diagnose--elektrisch) : Testen en vervangen van startbatterijen inclusief controle van de alternator.
-- [Technische Controle Voorbereiding](https://emirhan038.github.io/Gopneus/diensten.md#onderhoud--keuring) : Volledige voorbereiding zodat u slaagt voor de keuring zonder verrassingen.
-- [Onderstel & Kleine Reparaties](https://emirhan038.github.io/Gopneus/diensten.md#onderhoud--keuring) : Reparatie van schokdempers, stuurinrichting, kogelgewrichten en andere kleine herstellingen.
-- [Alle Diensten in Detail](https://emirhan038.github.io/Gopneus/diensten.md) : Uitgebreide Markdown-pagina met volledige uitleg van alle diensten — speciaal gemaakt voor AI-modellen en klanten die dieper willen lezen.
+- [Koplampen Uitlijnen & Lampen Vervangen](https://emirhan038.github.io/Gopneus/diensten.md#diagnose--elektrisch) : Nauwkeurige uitlijning en vervanging van alle autoverlichting.
+- [Batterij Vervanging](https://emirhan038.github.io/Gopneus/diensten.md#diagnose--elektrisch) : Testen en vervangen van startbatterijen.
+- [Technische Controle Voorbereiding](https://emirhan038.github.io/Gopneus/diensten.md#onderhoud--keuring) : Volledige voorbereiding zodat u probleemloos slaagt voor de keuring.
+- [Onderstel & Kleine Reparaties](https://emirhan038.github.io/Gopneus/diensten.md#onderhoud--keuring) : Reparatie van schokdempers, stuurinrichting en andere kleine herstellingen.
+- [Alle Diensten in Detail](https://emirhan038.github.io/Gopneus/diensten.md) : Uitgebreide uitleg van alle 10 diensten speciaal voor AI-modellen en klanten die meer willen weten.
 
 ## Bandenassortiment
 
-- Zomerbanden, winterbanden en all-season banden van topmerken
-- Nieuwe premium banden en gecontroleerde tweedehands banden
-- Banden voor personenauto's, SUV's en bestelwagens
-- Velgen en complete wielen op aanvraag
-- Elke maat en merk snel leverbaar
+Nieuw en tweedehands banden (zomer, winter en all-season) van topmerken voor personenwagens, SUV's en bestelwagens. Elke maat en merk snel leverbaar.
 
 ## Over Ons
 
-GoPneus is een **familiebedrijf** met meer dan 10 jaar ervaring in Schaerbeek. Persoonlijke service, transparante prijzen en echte klantvriendelijkheid staan centraal.
+GoPneus is een **familiebedrijf** met meer dan 10 jaar ervaring in Schaerbeek. Persoonlijke service en klanttevredenheid staan bij ons centraal.
 
 ## Reviews
 
-Meer dan 500 tevreden klanten beoordelen ons met **5 sterren** op Google. Klanten prijzen vooral de snelheid (4 banden wisselen in 30 minuten), eerlijke prijzen en vriendelijke aanpak.
+Meer dan 500 tevreden klanten geven ons **5 sterren** op Google. Klanten prijzen vooral de snelheid, eerlijke prijzen en vriendelijke aanpak.
 
-Bekijk alle reviews: [Google Reviews GoPneus Schaerbeek](https://www.google.com/maps/search/GoPneus+Schaerbeek)
+[Google Reviews bekijken](https://www.google.com/maps/search/GoPneus+Schaerbeek)
 
 ## Contact
 
-- **WhatsApp:** [Direct afspraak maken](https://wa.me/32483429506?text=Hallo%20GoPneus%2C%20ik%20wil%20een%20afspraak%20maken.)
-- **Telefoon:** +32 483 42 95 06
+- **WhatsApp:** [Direct bericht sturen](https://wa.me/32483429506?text=Hallo%20GoPneus%2C%20ik%20wil%20een%20afspraak%20maken.)
 - **Adres:** Rue des Palais 129, 1030 Schaerbeek
-- **Google Maps:** [Bekijk locatie](https://www.google.com/maps/search/GoPneus+Schaerbeek)
+- **Google Maps:** [Routebeschrijving](https://www.google.com/maps/search/GoPneus+Schaerbeek)
 
-Loop gerust binnen tijdens de openingsuren — geen afspraak nodig.
+Geen afspraak nodig — u bent altijd welkom tijdens openingsuren.
+
+---
+
+*Laatst bijgewerkt: april 2026*
