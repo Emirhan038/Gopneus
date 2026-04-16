@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function initScrollAnimations() {
     const targets = document.querySelectorAll(
-        '.stat-item, .service-card, .why-card, .review-card, .brand-box, .section-title, .banden-info, .over-ons-content, .contact-info, .contact-form, .hero-badge'
+        '.stat-item, .service-card, .why-card, .review-card, .brand-box, .section-title, .banden-info, .over-ons-content, .contact-info, .contact-form, .hero-badge, .promo-card, .seo-text, .seo-visual'
     );
 
     targets.forEach(el => el.classList.add('fade-in'));
@@ -84,11 +84,37 @@ const translations = {
         nav_about: 'Over Ons',
         nav_contact: 'Contact',
         // Hero
-        hero_badge: 'Uw bandenspecialist in Schaerbeek',
-        hero_title: 'GoPneus: Uw betrouwbare bandenpartner',
-        hero_text: 'Professionele bandenservice in Schaerbeek met snelle montage, persoonlijk advies en onderhoud voor elk type wagen.',
-        hero_btn_whatsapp: 'Maak afspraak via WhatsApp',
-        hero_btn_call: 'Bel +32 483 42 95 06',
+        hero_badge: 'ZELFDE DAG SERVICE — Banden Schaerbeek',
+        hero_title: 'Goedkope Banden in Schaerbeek & Brussel',
+        hero_sub: 'Snelle montage • Eerlijke prijs • Persoonlijk advies',
+        hero_text: 'Kom vandaag langs bij GoPneus — uw lokale bandenspecialist in Schaerbeek. Snel geholpen, zonder afspraak.',
+        hero_btn_whatsapp: 'WhatsApp afspraak',
+        hero_btn_call: 'BEL NU: 0483 42 95 06',
+        trust1: 'Geen afspraak nodig',
+        trust2: 'Gratis advies',
+        trust3: '5★ op Google',
+        // Urgency strip
+        urgency_text: 'Vandaag nog geholpen? Bel ons nu of stuur een WhatsApp — wij helpen u direct!',
+        urgency_call: '0483 42 95 06',
+        urgency_wa: 'WhatsApp',
+        // Promos
+        promos_title: 'Actuele Aanbiedingen',
+        promos_sub: 'Profiteer van onze beste deals — geldig tot zolang de voorraad strekt.',
+        promo1_badge: 'POPULAIR',
+        promo1_title: '2 Banden + Gratis Montage',
+        promo1_text: 'Koop 2 banden en betaal enkel voor 1x montage. Geldig op alle nieuwe banden.',
+        promo1_cta: 'Bel voor prijs',
+        promo2_badge: 'BESTE DEAL',
+        promo2_title: '4 Banden = Montage & Balanceren GRATIS',
+        promo2_text: 'Bij aankoop van 4 nieuwe banden zijn montage en balanceren volledig inbegrepen. Bespaar tot €80!',
+        promo2_cta: 'WhatsApp offerte',
+        promo3_badge: 'VANDAAG',
+        promo3_title: 'Seizoenswissel — Snel & Voordelig',
+        promo3_text: 'Vandaag nog wisselen van winter- naar zomerbanden. Zonder wachten, direct geholpen.',
+        promo3_cta: 'Kom vandaag langs',
+        // Mobile CTA
+        mobile_call: 'Bel Nu',
+        mobile_whatsapp: 'WhatsApp',
         // Stats
         stat_customers: 'Tevreden klanten',
         stat_rating: 'Google beoordeling',
@@ -126,6 +152,14 @@ const translations = {
         why2_text: 'Efficiënte bandenmontage, uitlijning en onderhoud zodat u snel weer veilig op de baan bent.',
         why3_title: 'Topkwaliteit',
         why3_text: 'Wij werken met betrouwbare bandenmerken en leveren professionele service met aandacht voor details.',
+        why4_title: 'Beste prijs garantie',
+        why4_text: 'Goedkope banden in Brussel zonder compromis op kwaliteit. Vraag onze prijzen — u zal aangenaam verrast zijn.',
+        why5_title: 'Geen afspraak nodig',
+        why5_text: 'Kom gewoon binnen — wij helpen u direct. Zelfde dag service, 6 dagen per week beschikbaar.',
+        why6_title: 'Centraal in Schaerbeek',
+        why6_text: 'Makkelijk bereikbaar in het hart van Schaerbeek, vlakbij het centrum van Brussel.',
+        why_cta_call: 'Bel nu gratis advies',
+        why_cta_wa: 'Stuur een WhatsApp',
         // Brands
         trusted_title: 'Topbandmerken die wij voeren',
         // Reviews
@@ -191,11 +225,37 @@ const translations = {
         nav_about: 'À propos',
         nav_contact: 'Contact',
         // Hero
-        hero_badge: 'Votre spécialiste pneus à Schaerbeek',
-        hero_title: 'GoPneus : Votre spécialiste pneus de confiance',
-        hero_text: 'Service pneus professionnel à Schaerbeek avec montage rapide, conseils personnalisés et entretien pour tous les véhicules.',
-        hero_btn_whatsapp: 'Prendre rendez-vous via WhatsApp',
-        hero_btn_call: 'Appeler +32 483 42 95 06',
+        hero_badge: 'SERVICE LE JOUR MÊME — Pneus Schaerbeek',
+        hero_title: 'Pneus Pas Chers à Schaerbeek & Bruxelles',
+        hero_sub: 'Montage rapide • Prix honnête • Conseils personnalisés',
+        hero_text: 'Venez aujourd\'hui chez GoPneus — votre spécialiste pneus local à Schaerbeek. Servi rapidement, sans rendez-vous.',
+        hero_btn_whatsapp: 'Rendez-vous WhatsApp',
+        hero_btn_call: 'APPELEZ: 0483 42 95 06',
+        trust1: 'Sans rendez-vous',
+        trust2: 'Conseils gratuits',
+        trust3: '5★ sur Google',
+        // Urgency strip
+        urgency_text: 'Besoin d\'aide aujourd\'hui? Appelez-nous ou envoyez un WhatsApp — nous vous aidons directement!',
+        urgency_call: '0483 42 95 06',
+        urgency_wa: 'WhatsApp',
+        // Promos
+        promos_title: 'Offres Actuelles',
+        promos_sub: 'Profitez de nos meilleures offres — valable jusqu\'à épuisement des stocks.',
+        promo1_badge: 'POPULAIRE',
+        promo1_title: '2 Pneus + Montage Gratuit',
+        promo1_text: 'Achetez 2 pneus et payez seulement pour 1 montage. Valable sur tous les pneus neufs.',
+        promo1_cta: 'Appeler pour le prix',
+        promo2_badge: 'MEILLEURE OFFRE',
+        promo2_title: '4 Pneus = Montage & Équilibrage GRATUIT',
+        promo2_text: 'À l\'achat de 4 pneus neufs, le montage et l\'équilibrage sont entièrement inclus. Économisez jusqu\'à €80!',
+        promo2_cta: 'Devis WhatsApp',
+        promo3_badge: 'AUJOURD\'HUI',
+        promo3_title: 'Changement Saisonnier — Rapide & Avantageux',
+        promo3_text: 'Changez vos pneus hiver en été dès aujourd\'hui. Sans attendre, servi directement.',
+        promo3_cta: 'Venez aujourd\'hui',
+        // Mobile CTA
+        mobile_call: 'Appeler',
+        mobile_whatsapp: 'WhatsApp',
         // Stats
         stat_customers: 'Clients satisfaits',
         stat_rating: 'Avis Google',
@@ -233,6 +293,14 @@ const translations = {
         why2_text: "Montage, alignement et entretien de pneus efficaces pour que vous soyez rapidement en sécurité sur la route.",
         why3_title: 'Qualité supérieure',
         why3_text: "Nous travaillons avec des marques de pneus fiables et offrons un service professionnel avec attention aux détails.",
+        why4_title: 'Meilleur prix garanti',
+        why4_text: 'Pneus pas chers à Bruxelles sans compromis sur la qualité. Demandez nos prix — vous serez agréablement surpris.',
+        why5_title: 'Sans rendez-vous',
+        why5_text: 'Entrez simplement — nous vous aidons directement. Service le jour même, 6 jours par semaine.',
+        why6_title: 'Central à Schaerbeek',
+        why6_text: 'Facilement accessible au cœur de Schaerbeek, à proximité du centre de Bruxelles.',
+        why_cta_call: 'Appeler pour conseils gratuits',
+        why_cta_wa: 'Envoyer un WhatsApp',
         // Brands
         trusted_title: 'Marques de pneus que nous proposons',
         // Reviews
@@ -298,11 +366,37 @@ const translations = {
         nav_about: 'About',
         nav_contact: 'Contact',
         // Hero
-        hero_badge: 'Your tyre specialist in Schaerbeek',
-        hero_title: 'GoPneus: Your trusted tyre partner',
-        hero_text: 'Professional tyre service in Schaerbeek with fast fitting, personal advice and maintenance for every vehicle.',
-        hero_btn_whatsapp: 'Book via WhatsApp',
-        hero_btn_call: 'Call +32 483 42 95 06',
+        hero_badge: 'SAME DAY SERVICE — Tyres Schaerbeek',
+        hero_title: 'Cheap Tyres in Schaerbeek & Brussels',
+        hero_sub: 'Fast fitting • Fair price • Personal advice',
+        hero_text: 'Come in today at GoPneus — your local tyre specialist in Schaerbeek. Served quickly, no appointment needed.',
+        hero_btn_whatsapp: 'WhatsApp appointment',
+        hero_btn_call: 'CALL NOW: 0483 42 95 06',
+        trust1: 'No appointment needed',
+        trust2: 'Free advice',
+        trust3: '5★ on Google',
+        // Urgency strip
+        urgency_text: 'Need help today? Call us or send a WhatsApp — we help you right away!',
+        urgency_call: '0483 42 95 06',
+        urgency_wa: 'WhatsApp',
+        // Promos
+        promos_title: 'Current Offers',
+        promos_sub: 'Take advantage of our best deals — valid while stocks last.',
+        promo1_badge: 'POPULAR',
+        promo1_title: '2 Tyres + Free Fitting',
+        promo1_text: 'Buy 2 tyres and pay for only 1 fitting. Valid on all new tyres.',
+        promo1_cta: 'Call for price',
+        promo2_badge: 'BEST DEAL',
+        promo2_title: '4 Tyres = Fitting & Balancing FREE',
+        promo2_text: 'When buying 4 new tyres, fitting and balancing are fully included. Save up to €80!',
+        promo2_cta: 'WhatsApp quote',
+        promo3_badge: 'TODAY',
+        promo3_title: 'Seasonal Switch — Fast & Affordable',
+        promo3_text: 'Switch from winter to summer tyres today. No waiting, served directly.',
+        promo3_cta: 'Come in today',
+        // Mobile CTA
+        mobile_call: 'Call Now',
+        mobile_whatsapp: 'WhatsApp',
         // Stats
         stat_customers: 'Happy customers',
         stat_rating: 'Google rating',
@@ -340,6 +434,14 @@ const translations = {
         why2_text: "Efficient tyre fitting, alignment and maintenance so you're quickly back safely on the road.",
         why3_title: 'Top quality',
         why3_text: 'We work with reliable tyre brands and deliver professional service with attention to detail.',
+        why4_title: 'Best price guarantee',
+        why4_text: 'Cheap tyres in Brussels without compromising on quality. Ask for our prices — you will be pleasantly surprised.',
+        why5_title: 'No appointment needed',
+        why5_text: 'Just walk in — we help you directly. Same day service, 6 days a week available.',
+        why6_title: 'Central in Schaerbeek',
+        why6_text: 'Easily accessible in the heart of Schaerbeek, close to the centre of Brussels.',
+        why_cta_call: 'Call for free advice',
+        why_cta_wa: 'Send a WhatsApp',
         // Brands
         trusted_title: 'Top tyre brands we carry',
         // Reviews

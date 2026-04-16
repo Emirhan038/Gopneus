@@ -4,18 +4,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="GoPneus - Uw bandenspecialist in Schaerbeek. Banden, onderhoud, lampen, accu's en technische controle met persoonlijke service.">
-    <meta property="og:title" content="GoPneus - Uw Bandenspecialist in Schaerbeek">
-    <meta property="og:description" content="GoPneus - Uw bandenspecialist in Schaerbeek. Banden, onderhoud, lampen, accu's en technische controle met persoonlijke service.">
+
+    <!-- SEO Meta Tags -->
+    <title>GoPneus – Banden Schaerbeek | Goedkope Pneus Brussel</title>
+    <meta name="description" content="Banden kopen in Schaerbeek? GoPneus: goedkope pneus, snelle montage, zelfde dag service. Brussel & omgeving. Bel nu: 0483 42 95 06.">
+    <meta name="keywords" content="banden Schaerbeek, pneus Brussel, goedkope banden Brussel, banden montage Schaerbeek, bandenservice Brussel, winterbanden, zomerbanden, banden wisselen Brussel">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://gopneus.be/">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="GoPneus – Goedkope Banden Schaerbeek & Brussel">
+    <meta property="og:description" content="Uw bandenspecialist in Schaerbeek. Goedkope pneus, snelle montage, zelfde dag service. Bel nu: 0483 42 95 06">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="nl_BE">
+    <meta property="og:url" content="https://gopneus.be/">
+    <meta property="og:image" content="https://gopneus.be/images/hero.png">
+
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <title>GoPneus - Uw Bandenspecialist in Schaerbeek</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <link rel="llms" href="/llms.txt" type="text/plain">
+
+    <!-- Schema.org LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoRepair",
+      "name": "GoPneus",
+      "description": "Bandenspecialist in Schaerbeek – banden, montage, balanceren, remmen, airco en meer.",
+      "url": "https://gopneus.be",
+      "telephone": "+32483429506",
+      "email": "ozdemir0038@hotmail.com",
+      "image": "https://gopneus.be/images/hero.png",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rue des Palais 129",
+        "addressLocality": "Schaerbeek",
+        "postalCode": "1030",
+        "addressCountry": "BE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 50.8654545,
+        "longitude": 4.369674
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+          "opens": "09:00",
+          "closes": "19:00"
+        }
+      ],
+      "priceRange": "€€",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "reviewCount": "32"
+      },
+      "hasMap": "https://www.google.com/maps/place/Rue+des+Palais+129,+1030+Schaerbeek"
+    }
+    </script>
 </head>
 
 <body>
@@ -38,7 +90,7 @@
 
     <header>
         <div class="container">
-            <h1 class="logo">Go<span>Pneus</span></h1>
+            <div class="logo">Go<span>Pneus</span></div>
             <nav aria-label="Hoofdmenu">
                 <ul class="main-menu">
                     <li><a href="#home" data-i18n="nav_home">Home</a></li>
@@ -58,12 +110,18 @@
 
     <section class="hero" id="home">
         <div class="hero-content">
-            <div class="hero-badge"><i class="fas fa-star"></i> <span data-i18n="hero_badge">Uw bandenspecialist in Schaerbeek</span></div>
-            <h2 data-i18n="hero_title">GoPneus: Uw betrouwbare bandenpartner</h2>
-            <p data-i18n="hero_text">Professionele bandenservice in Schaerbeek met snelle montage, persoonlijk advies en onderhoud voor elk type wagen.</p>
+            <div class="hero-badge"><i class="fas fa-bolt"></i> <span data-i18n="hero_badge">ZELFDE DAG SERVICE — Banden Schaerbeek</span></div>
+            <h1 data-i18n="hero_title">Goedkope Banden in Schaerbeek &amp; Brussel</h1>
+            <p class="hero-sub" data-i18n="hero_sub">Snelle montage • Eerlijke prijs • Persoonlijk advies</p>
+            <p data-i18n="hero_text">Kom vandaag langs bij GoPneus — uw lokale bandenspecialist in Schaerbeek. Snel geholpen, zonder afspraak.</p>
             <div class="hero-buttons">
-                <a href="https://wa.me/32483429506?text=Hallo%20GoPneus%2C%20ik%20wil%20een%20afspraak%20maken." target="_blank" rel="noopener" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> <span data-i18n="hero_btn_whatsapp">Maak afspraak via WhatsApp</span></a>
-                <a href="tel:+32483429506" class="btn btn-secondary"><i class="fas fa-phone"></i> <span data-i18n="hero_btn_call">Bel +32 483 42 95 06</span></a>
+                <a href="tel:+32483429506" class="btn btn-call-hero"><i class="fas fa-phone"></i> <span data-i18n="hero_btn_call">BEL NU: 0483 42 95 06</span></a>
+                <a href="https://wa.me/32483429506?text=Hallo%20GoPneus%2C%20ik%20wil%20een%20afspraak%20maken." target="_blank" rel="noopener" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> <span data-i18n="hero_btn_whatsapp">WhatsApp afspraak</span></a>
+            </div>
+            <div class="hero-trust">
+                <span><i class="fas fa-check-circle"></i> <span data-i18n="trust1">Geen afspraak nodig</span></span>
+                <span><i class="fas fa-check-circle"></i> <span data-i18n="trust2">Gratis advies</span></span>
+                <span><i class="fas fa-check-circle"></i> <span data-i18n="trust3">5★ op Google</span></span>
             </div>
         </div>
     </section>
@@ -89,13 +147,55 @@
         </div>
     </section>
 
+    <!-- Urgency CTA Strip -->
+    <div class="urgency-cta-strip">
+        <div class="container">
+            <p data-i18n="urgency_text"><strong>Vandaag nog geholpen?</strong> Bel ons nu of stuur een WhatsApp — wij helpen u direct!</p>
+            <div class="urgency-cta-buttons">
+                <a href="tel:+32483429506" class="btn btn-white"><i class="fas fa-phone"></i> <span data-i18n="urgency_call">0483 42 95 06</span></a>
+                <a href="https://wa.me/32483429506?text=Hallo%20GoPneus%2C%20ik%20wil%20een%20afspraak%20maken." target="_blank" rel="noopener" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> <span data-i18n="urgency_wa">WhatsApp</span></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Promoties Section -->
+    <section class="promoties" id="promoties">
+        <div class="container">
+            <h2 class="section-title" data-i18n="promos_title">Actuele Aanbiedingen</h2>
+            <p class="section-subtitle" data-i18n="promos_sub">Profiteer van onze beste deals — geldig tot zolang de voorraad strekt.</p>
+            <div class="promo-grid">
+                <div class="promo-card">
+                    <div class="promo-badge-label" data-i18n="promo1_badge">POPULAIR</div>
+                    <div class="promo-icon"><i class="fas fa-circle-dot"></i></div>
+                    <h3 data-i18n="promo1_title">2 Banden + Gratis Montage</h3>
+                    <p data-i18n="promo1_text">Koop 2 banden en betaal enkel voor 1x montage. Geldig op alle nieuwe banden.</p>
+                    <a href="tel:+32483429506" class="btn" data-i18n="promo1_cta">Bel voor prijs</a>
+                </div>
+                <div class="promo-card featured">
+                    <div class="promo-badge-label" data-i18n="promo2_badge">BESTE DEAL</div>
+                    <div class="promo-icon"><i class="fas fa-rotate"></i></div>
+                    <h3 data-i18n="promo2_title">4 Banden = Montage &amp; Balanceren GRATIS</h3>
+                    <p data-i18n="promo2_text">Bij aankoop van 4 nieuwe banden zijn montage en balanceren volledig inbegrepen. Bespaar tot €80!</p>
+                    <a href="https://wa.me/32483429506?text=Hallo%20GoPneus%2C%20ik%20wil%20een%20offerte%20voor%204%20banden." target="_blank" rel="noopener" class="btn btn-whatsapp" data-i18n="promo2_cta">WhatsApp offerte</a>
+                </div>
+                <div class="promo-card">
+                    <div class="promo-badge-label" data-i18n="promo3_badge">VANDAAG</div>
+                    <div class="promo-icon"><i class="fas fa-arrows-rotate"></i></div>
+                    <h3 data-i18n="promo3_title">Seizoenswissel — Snel &amp; Voordelig</h3>
+                    <p data-i18n="promo3_text">Vandaag nog wisselen van winter- naar zomerbanden. Zonder wachten, direct geholpen.</p>
+                    <a href="tel:+32483429506" class="btn" data-i18n="promo3_cta">Kom vandaag langs</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="services" class="services">
         <div class="container">
             <h2 class="section-title" data-i18n="services_title">Onze Diensten</h2>
             <div class="service-grid">
                 <div class="service-card">
                     <div class="service-img">
-                        <img src="images/new_tyres.jpg" alt="Nieuwe en tweedehands banden" loading="lazy">
+                        <img src="images/new_tyres.jpg" alt="Nieuwe en tweedehands banden Schaerbeek" loading="lazy">
                     </div>
                     <div class="service-info">
                         <h3><i class="fas fa-circle-dot"></i> <span data-i18n="service1_title">Nieuwe &amp; Tweedehands Banden</span></h3>
@@ -105,7 +205,7 @@
 
                 <div class="service-card">
                     <div class="service-img">
-                        <img src="images/rem.jpeg" alt="Remmen vervangen" loading="lazy">
+                        <img src="images/rem.jpeg" alt="Remmen vervangen Brussel" loading="lazy">
                     </div>
                     <div class="service-info">
                         <h3><i class="fas fa-circle-stop"></i> <span data-i18n="service2_title">Remschijven &amp; Remblokken</span></h3>
@@ -115,7 +215,7 @@
 
                 <div class="service-card">
                     <div class="service-img">
-                        <img src="images/airco-center-large.jpg" alt="Airco hervulling">
+                        <img src="images/airco-center-large.jpg" alt="Airco hervulling Schaerbeek">
                     </div>
                     <div class="service-info">
                         <h3><i class="fas fa-snowflake"></i> <span data-i18n="service3_title">Airco Hervulling</span></h3>
@@ -125,7 +225,7 @@
 
                 <div class="service-card">
                     <div class="service-img">
-                        <img src="images/Preparation_controle_technique_Wonderservice.jpg" alt="Technische controle" loading="lazy">
+                        <img src="images/Preparation_controle_technique_Wonderservice.jpg" alt="Technische controle voorbereiding" loading="lazy">
                     </div>
                     <div class="service-info">
                         <h3><i class="fas fa-screwdriver-wrench"></i> <span data-i18n="service4_title">Technische Controle</span></h3>
@@ -135,7 +235,7 @@
 
                 <div class="service-card">
                     <div class="service-img">
-                        <img src="images/diagnostic-tool.jpg" alt="Auto diagnose" loading="lazy">
+                        <img src="images/diagnostic-tool.jpg" alt="Auto diagnose Brussel" loading="lazy">
                     </div>
                     <div class="service-info">
                         <h3><i class="fas fa-laptop-code"></i> <span data-i18n="service5_title">Auto Diagnose</span></h3>
@@ -155,7 +255,7 @@
 
                 <div class="service-card">
                     <div class="service-img">
-                        <img src="images/balance.jpg" alt="Banden balanceren">
+                        <img src="images/balance.jpg" alt="Banden balanceren Schaerbeek">
                     </div>
                     <div class="service-info">
                         <h3><i class="fas fa-rotate"></i> <span data-i18n="service7_title">Banden Balanceren</span></h3>
@@ -195,7 +295,7 @@
 
                 <div class="service-card">
                     <div class="service-img">
-                        <img src="images/winterbanden-zomerbanden.jpg" alt="Seizoenswissel van banden">
+                        <img src="images/winterbanden-zomerbanden.jpg" alt="Seizoenswissel banden Schaerbeek">
                     </div>
                     <div class="service-info">
                         <h3><i class="fas fa-arrows-rotate"></i> <span data-i18n="service11_title">Seizoenswissel Banden</span></h3>
@@ -225,6 +325,25 @@
                     <h3 data-i18n="why3_title">Topkwaliteit</h3>
                     <p data-i18n="why3_text">Wij werken met betrouwbare bandenmerken en leveren professionele service met aandacht voor details.</p>
                 </div>
+                <div class="why-card">
+                    <div class="why-card-icon"><i class="fas fa-tag"></i></div>
+                    <h3 data-i18n="why4_title">Beste prijs garantie</h3>
+                    <p data-i18n="why4_text">Goedkope banden in Brussel zonder compromis op kwaliteit. Vraag onze prijzen — u zal aangenaam verrast zijn.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-card-icon"><i class="fas fa-calendar-check"></i></div>
+                    <h3 data-i18n="why5_title">Geen afspraak nodig</h3>
+                    <p data-i18n="why5_text">Kom gewoon binnen — wij helpen u direct. Zelfde dag service, 6 dagen per week beschikbaar.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-card-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <h3 data-i18n="why6_title">Centraal in Schaerbeek</h3>
+                    <p data-i18n="why6_text">Makkelijk bereikbaar in het hart van Schaerbeek, vlakbij het centrum van Brussel.</p>
+                </div>
+            </div>
+            <div class="why-cta">
+                <a href="tel:+32483429506" class="btn"><i class="fas fa-phone"></i> <span data-i18n="why_cta_call">Bel nu gratis advies</span></a>
+                <a href="https://wa.me/32483429506?text=Hallo%20GoPneus%2C%20ik%20wil%20een%20afspraak%20maken." target="_blank" rel="noopener" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> <span data-i18n="why_cta_wa">Stuur een WhatsApp</span></a>
             </div>
         </div>
     </section>
@@ -234,11 +353,11 @@
             <h2 class="section-title" data-i18n="trusted_title">Topbandmerken die wij voeren</h2>
             <div class="brand-grid">
                 <div class="brand-box">
-                    <img src="images/continental.jpg" alt="Continental banden">
+                    <img src="images/continental.jpg" alt="Continental banden Brussel">
                     <span>Continental</span>
                 </div>
                 <div class="brand-box">
-                    <img src="images/michelin.jpg" alt="Michelin banden">
+                    <img src="images/michelin.jpg" alt="Michelin banden Schaerbeek">
                     <span>Michelin</span>
                 </div>
                 <div class="brand-box">
@@ -246,7 +365,7 @@
                     <span>Bridgestone</span>
                 </div>
                 <div class="brand-box">
-                    <img src="images/images.jpg" alt="Goodyear banden">
+                    <img src="images/images.jpg" alt="Goodyear banden Brussel">
                     <span>Goodyear</span>
                 </div>
             </div>
@@ -326,7 +445,31 @@
                 </div>
             </div>
             <div class="review-footer">
-                <a href="https://www.google.com/maps/search/GoPneus+Schaerbeek" target="_blank" rel="noopener" class="btn btn-secondary" data-i18n="reviews_btn">Bekijk alle Google Reviews</a>
+                <a href="https://www.google.com/maps/search/GoPneus+Schaerbeek" target="_blank" rel="noopener" class="btn btn-reviews" data-i18n="reviews_btn">Bekijk alle Google Reviews</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lokale SEO Artikel 1: Beste banden garage Schaerbeek -->
+    <section class="seo-artikel seo-garage">
+        <div class="container">
+            <div class="seo-content">
+                <div class="seo-text">
+                    <h2>De Beste Banden Garage in Schaerbeek</h2>
+                    <p>Op zoek naar een <strong>betrouwbare bandenspecialist in Schaerbeek</strong>? GoPneus is uw lokale adres voor alles wat met banden te maken heeft. Met meer dan 10 jaar ervaring in de Brusselse regio zijn wij de vertrouwde keuze voor particulieren en bedrijven in Schaerbeek, Evere, Laken en de ruime omgeving.</p>
+                    <p>Onze garage, gelegen aan de <strong>Rue des Palais 129 in Schaerbeek (1030)</strong>, staat bekend om eerlijke prijzen, snelle service en vakkundige mecaniciens. Of u nu <strong>goedkope banden zoekt in Brussel</strong> of een complete bandenmontage wil — bij GoPneus bent u aan het juiste adres.</p>
+                    <ul class="seo-list">
+                        <li><i class="fas fa-check"></i> Banden montage zonder lange wachttijden</li>
+                        <li><i class="fas fa-check"></i> Goedkoopste pneus in Brussel — ook tweedehands beschikbaar</li>
+                        <li><i class="fas fa-check"></i> Alle topmerken: Michelin, Continental, Bridgestone, Goodyear</li>
+                        <li><i class="fas fa-check"></i> Zelfde dag service — gewoon binnenlopen!</li>
+                        <li><i class="fas fa-check"></i> Geen verborgen kosten, eerlijke offerte</li>
+                    </ul>
+                    <a href="tel:+32483429506" class="btn"><i class="fas fa-phone"></i> Bel voor een gratis offerte</a>
+                </div>
+                <div class="seo-visual">
+                    <img src="images/garage_foto.jpg" alt="GoPneus bandengarage Schaerbeek Brussel" loading="lazy">
+                </div>
             </div>
         </div>
     </section>
@@ -352,7 +495,7 @@
                     <a href="#contact" class="btn" data-i18n="tyres_cta">Vraag advies</a>
                 </div>
                 <div class="banden-image">
-                    <img src="images/new_tyres.jpg" alt="Verschillende soorten banden">
+                    <img src="images/new_tyres.jpg" alt="Banden assortiment GoPneus Schaerbeek">
                 </div>
             </div>
         </div>
@@ -363,7 +506,7 @@
             <h2 class="section-title" data-i18n="about_title">Over GoPneus</h2>
             <div class="over-ons-content">
                 <div class="over-ons-image">
-                    <img src="images/garage_foto.jpg" alt="GoPneus Garage">
+                    <img src="images/garage_foto.jpg" alt="GoPneus Garage Schaerbeek">
                 </div>
                 <div class="over-ons-text">
                     <h3 data-i18n="about_subtitle">Uw vertrouwde partner voor alles rond banden en autoservice</h3>
@@ -376,6 +519,31 @@
                         <li data-i18n="about_li4">Klanttevredenheid</li>
                     </ul>
                     <p data-i18n="about_visit">Kom langs in onze garage en ervaar zelf ons vakmanschap en onze service!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lokale SEO Artikel 2: Wanneer banden vervangen -->
+    <section class="seo-artikel seo-vervangen">
+        <div class="container">
+            <div class="seo-content seo-content--reverse">
+                <div class="seo-text">
+                    <h2>Wanneer Moet U Uw Banden Vervangen in België?</h2>
+                    <p>In België is de wettelijke minimale profieldiepte <strong>1,6 mm</strong>. Maar veiligheidsexperts raden aan uw banden te vervangen zodra het profiel minder dan <strong>3 mm</strong> bedraagt — zeker in natte Belgische rijomstandigheden.</p>
+                    <h3>Signalen dat uw banden aan vervanging toe zijn:</h3>
+                    <ul class="seo-list">
+                        <li><i class="fas fa-exclamation-triangle"></i> Profieldiepte onder 3 mm</li>
+                        <li><i class="fas fa-exclamation-triangle"></i> Zichtbare slijtage-indicatoren in het loopvlak</li>
+                        <li><i class="fas fa-exclamation-triangle"></i> Scheuren of blazen in de zijwanden</li>
+                        <li><i class="fas fa-exclamation-triangle"></i> Trillingen of stuurproblemen tijdens het rijden</li>
+                        <li><i class="fas fa-exclamation-triangle"></i> Banden ouder dan 5 jaar (ook bij weinig gebruik)</li>
+                    </ul>
+                    <p><strong>Twijfelt u?</strong> Kom gratis langs bij GoPneus in Schaerbeek voor een gratis bandencheck. Onze specialisten bekijken uw banden en geven u eerlijk advies — zonder verplichtingen.</p>
+                    <a href="https://wa.me/32483429506?text=Hallo%20GoPneus%2C%20ik%20wil%20mijn%20banden%20laten%20controleren." target="_blank" rel="noopener" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Vraag gratis bandencheck</a>
+                </div>
+                <div class="seo-visual">
+                    <img src="images/winterbanden-zomerbanden.jpg" alt="Wanneer banden vervangen in België?" loading="lazy">
                 </div>
             </div>
         </div>
@@ -394,7 +562,7 @@
                         </li>
                         <li>
                             <i class="fas fa-phone"></i>
-                            <span><a href="tel:+32483429506">0483429506</a></span>
+                            <span><a href="tel:+32483429506">0483 42 95 06</a></span>
                         </li>
                         <li>
                             <i class="fas fa-envelope"></i>
@@ -427,7 +595,7 @@
                     <h3 data-i18n="contact_location">Onze locatie</h3>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2518.1435899358675!2d4.369674!3d50.8654545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c3d4e5cf7a57%3A0x985e18043c5de5c0!2sRue%20des%20Palais%20129%2C%201030%20Schaerbeek!5e0!3m2!1snl!2sbe!4v1597315842123!5m2!1snl!2sbe"
-                        width="100%" height="300" title="GoPneus locatie" allowfullscreen="" aria-hidden="false"
+                        width="100%" height="300" title="GoPneus locatie Schaerbeek" allowfullscreen="" aria-hidden="false"
                         tabindex="0"></iframe>
                 </div>
             </div>
@@ -438,7 +606,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <h2 class="logo">Go<span>Pneus</span></h2>
+                    <div class="logo">Go<span>Pneus</span></div>
                     <p data-i18n="footer_tagline">Uw specialist in banden en autoservice in Schaerbeek. Snelle service, eerlijke prijzen en persoonlijk advies.</p>
                     <div class="footer-social">
                         <a href="https://wa.me/32483429506" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
@@ -467,6 +635,17 @@
             <div class="footer-bottom" data-i18n="footer_copyright">© 2026 GoPneus. Alle rechten voorbehouden.</div>
         </div>
     </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/32483429506?text=Hallo%20GoPneus%2C%20ik%20wil%20een%20afspraak%20maken." class="floating-whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp GoPneus">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Mobile Sticky CTA Bar -->
+    <div class="mobile-cta">
+        <a href="tel:+32483429506" class="mobile-cta-call"><i class="fas fa-phone"></i> <span data-i18n="mobile_call">Bel Nu</span></a>
+        <a href="https://wa.me/32483429506?text=Hallo%20GoPneus%2C%20ik%20wil%20een%20afspraak%20maken." target="_blank" rel="noopener" class="mobile-cta-whatsapp"><i class="fab fa-whatsapp"></i> <span data-i18n="mobile_whatsapp">WhatsApp</span></a>
+    </div>
 
     <script src="script.js"></script>
 </body>
